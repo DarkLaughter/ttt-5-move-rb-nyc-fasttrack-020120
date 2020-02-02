@@ -11,5 +11,5 @@ display_board(board)
 puts "Please Enter 1-9:"
 their_move = gets.strip
 index = their_move.to_i-1
-
+input_to_index(input)
 move(board, index, value)
