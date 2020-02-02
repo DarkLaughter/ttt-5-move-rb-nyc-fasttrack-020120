@@ -12,4 +12,4 @@ puts "Please Enter 1-9:"
 their_move = gets.strip
 index = their_move.to_i-1
 
-move(board, index, token)
+
